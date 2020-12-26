@@ -1,0 +1,46 @@
+
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.afk": {
+            "states": {
+                "default": {
+                    "on_entry": [
+                        "/scoreboard players reset @s afk"
+                    ],
+                    "transitions": [
+                        {
+                            "afk": "!query.is_moving"
+                        }
+                    ]
+                },
+                "afk": {
+                    "on_entry": [
+                        "/scoreboard players add @s[tag=!op] afk 1"
+                    ],
+                    "transitions": [
+                        {
+                            "afk2": "!query.is_moving"
+                        },
+                        {
+                            "default": "query.is_moving"
+                        }
+                    ]
+                },
+                "afk2": {
+                    "on_entry": [
+                        "/scoreboard players add @s[tag=!op] afk 1"
+                    ],
+                    "transitions": [
+                        {
+                            "afk1": "!query.is_moving"
+                        },
+                        {
+                            "default": "query.is_moving"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
