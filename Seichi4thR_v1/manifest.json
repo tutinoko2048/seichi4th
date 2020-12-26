@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "",
+    "name": "Seichi4thR_v1",
+    "uuid": "fb94cd90-2e30-11eb-f3c9-d1689d71ce6c",
+    "version": [ 1,0,0 ]
+  },
+  "modules": [
+    {
+      "description": "",
+      "type": "resources",
+      "uuid": "fb9542c0-2e30-11eb-e0cd-95c43727e768",
+      "version": [ 1,0,0 ]
+    }
+  ]
+}
