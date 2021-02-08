@@ -12,7 +12,8 @@
                     "teleporter1",
                     "teleporter2",
                     "haste_remove",
-                    "afk"
+                    "afk",
+                    "sneaking"
                 ]
             },
             "animations": {
@@ -20,7 +21,8 @@
                 "teleporter1": "controller.animation.teleporter1",
                 "teleporter2": "controller.animation.teleporter2",
                 "teleporter3": "controller.animation.teleporter3",
-                "afk": "controller.animation.afk"
+                "afk": "controller.animation.afk",
+                "sneaking": "controller.animation.sneaking"
             }
         },
         "component_groups": {
