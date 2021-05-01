@@ -1,4 +1,0 @@
-multiplayer.player.joined=§aJoin ->§r %s
-multiplayer.player.left=§cLeave <-§r %s
-
-item.seichi:teleporter.name=Teleporter
